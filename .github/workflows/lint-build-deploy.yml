@@ -20,7 +20,7 @@ jobs:
           node-version: '16'
           cache: 'yarn'
 
-      - run: yarn install --immutable
+      - run: yarn
       - run: yarn validate
 
       - name: Set up QEMU
