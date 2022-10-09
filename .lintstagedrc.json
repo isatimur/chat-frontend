@@ -1,5 +1,5 @@
 {
-  "*.(css)": ["prettier --write"],
+  "*.(css|yml)": ["prettier --write"],
   "*.(ts|tsx)": ["prettier --write", "eslint --fix"],
   "package.json": ["prettier-package-json --write"]
 }
