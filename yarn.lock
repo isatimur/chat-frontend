@@ -1603,6 +1603,7 @@ __metadata:
     "@types/react-dom": 18.0.6
     "@vitejs/plugin-react": 2.1.0
     autoprefixer: 10.4.12
+    classnames: 2.3.2
     concurrently: 7.4.0
     effector: 22.3.0
     effector-logger: 0.13.4
@@ -1655,6 +1656,13 @@ __metadata:
   version: 3.5.0
   resolution: "ci-info@npm:3.5.0"
   checksum: 7def3789706ec18db3dc371dc699bd0df12057d54b796201f50ba87200e0849d3d83c68da00ab2ab8cdd738d91b25ab9e31620588f8d7e64ffaa1f760fd121cf
+  languageName: node
+  linkType: hard
+
+"classnames@npm:2.3.2":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
   languageName: node
   linkType: hard
 

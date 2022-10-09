@@ -11,6 +11,7 @@
     "validate": "./scripts/validate"
   },
   "dependencies": {
+    "classnames": "2.3.2",
     "effector": "22.3.0",
     "effector-react": "22.3.3",
     "husky": "8.0.1",
