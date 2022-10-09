@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "build": "vite build",
+    "postinstall": "husky install",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' .",
-    "prepare": "husky install",
     "serve": "vite preview",
     "start": "vite",
     "typecheck": "tsc --noEmit",
