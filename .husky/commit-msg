@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "PreCommit Hook Started"
+yarn commitlint --edit $1
