@@ -3,8 +3,9 @@
 concurrently \
   --kill-others-on-fail \
   --prefix "[{name}]" \
-  --names "lint,typecheck,build" \
-  --prefix-colors "bgGreen.bold.white,bgBlue.bold.white,bgMagenta.bold.white" \
+  --names "test,lint,typecheck,build" \
+  --prefix-colors "bgRed.bold.white,bgGreen.bold.white,bgBlue.bold.white,bgMagenta.bold.white" \
+    "yarn test" \
     "yarn lint" \
     "yarn typecheck" \
     "yarn build"
