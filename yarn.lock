@@ -396,7 +396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^17.1.2":
+"@commitlint/cli@npm:17.1.2":
   version: 17.1.2
   resolution: "@commitlint/cli@npm:17.1.2"
   dependencies:
@@ -416,7 +416,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.1.0":
+"@commitlint/config-conventional@npm:17.1.0":
   version: 17.1.0
   resolution: "@commitlint/config-conventional@npm:17.1.0"
   dependencies:
@@ -1596,8 +1596,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "chat@workspace:."
   dependencies:
-    "@commitlint/cli": ^17.1.2
-    "@commitlint/config-conventional": ^17.1.0
+    "@commitlint/cli": 17.1.2
+    "@commitlint/config-conventional": 17.1.0
     "@types/lodash": 4.14.186
     "@types/react": 18.0.21
     "@types/react-dom": 18.0.6
@@ -1609,12 +1609,12 @@ __metadata:
     effector-react: 22.3.3
     eslint: 8.25.0
     eslint-kit: 6.8.0
-    husky: ^8.0.0
-    lint-staged: ^13.0.3
+    husky: 8.0.1
+    lint-staged: 13.0.3
     lodash: 4.17.21
     postcss: 8.4.17
     prettier: 2.7.1
-    prettier-package-json: ^2.7.0
+    prettier-package-json: 2.7.0
     react: 18.2.0
     react-dom: 18.2.0
     react-router-dom: 6.4.2
@@ -3556,7 +3556,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.0":
+"husky@npm:8.0.1":
   version: 8.0.1
   resolution: "husky@npm:8.0.1"
   bin:
@@ -4092,7 +4092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^13.0.3":
+"lint-staged@npm:13.0.3":
   version: 13.0.3
   resolution: "lint-staged@npm:13.0.3"
   dependencies:
@@ -4988,7 +4988,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-package-json@npm:^2.7.0":
+"prettier-package-json@npm:2.7.0":
   version: 2.7.0
   resolution: "prettier-package-json@npm:2.7.0"
   dependencies:
